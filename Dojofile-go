@@ -1,0 +1,2 @@
+DOJO_DOCKER_IMAGE="catosplace/pulumi-go:latest"
+DOJO_DOCKER_OPTIONS="--env-file <(aws-vault --debug exec devops -- env | grep ^AWS_)"
